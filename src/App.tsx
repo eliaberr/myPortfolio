@@ -1,11 +1,12 @@
-import "./App.css";
+import { NavBar } from "./components/navBar/navBar";
+import { Home } from "./page/home";
 
 function App() {
   return (
-    <div>
-      <h1 className="">Hello Word</h1>
-    </div>
+    <main className={`w-full bg-amber-300 mx-auto`}>
+      <NavBar/>
+      <Home/>
+    </main>
   );
 }
-
 export default App;

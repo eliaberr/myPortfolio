@@ -1,0 +1,1 @@
+export const LAYOUT_DESKTOP = "w-[1280px] mx-auto"
