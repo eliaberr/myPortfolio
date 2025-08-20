@@ -1,7 +1,7 @@
 import { NavBar } from "./components/navBar/navBar";
 import { Home } from "./page/home";
 
-function App() {
+export default function App() {
   return (
     <main className={`w-full bg-amber-300 mx-auto`}>
       <NavBar/>
@@ -9,4 +9,3 @@ function App() {
     </main>
   );
 }
-export default App;
