@@ -3,7 +3,7 @@ import { Home } from "./page/home";
 
 export default function App() {
   return (
-    <main className={`w-full bg-amber-300 mx-auto`}>
+    <main className={`w-full mx-auto`}>
       <NavBar/>
       <Home/>
     </main>
