@@ -1,9 +1,13 @@
+import teste from "../assets/imgCardTest.png"
+
 export const projects = [
   {
     id: 1,
+    projectCategory: "Projeto Pessoal",
+    ulrImg: teste,
     name: "Casamento Lais e Eliabe",
     resume:
-      "Desenvolvi um site interativo para casamento, com páginas dedicadas à história do casal, informações do evento, confirmação de presença (RSVP) e uma lista de presentes integrada com QR Code PIX. O sistema foi construído com React/Next.js no front-end e Node.js/Express no back-end, garantindo desempenho, responsividade e facilidade de uso para os convidados.",
+      "Desenvolvi um site interativo de casamento com páginas informativas, RSVP e lista de presentes com QR Code PIX, utilizando React/Next.js no front-end e Node.js/Express no back-end, priorizando desempenho e usabilidade.",
     description: [
       "O Site de Casamento foi desenvolvido com o objetivo de centralizar todas as informações do evento em um único lugar, oferecendo aos convidados praticidade e uma experiência interativa. A aplicação conta com páginas dedicadas à apresentação da história do casal, detalhes sobre o evento, como local, data, dress code e links diretos para navegação no Google Maps ou Waze, além de seções específicas para confirmação de presença (RSVP) e lista de presentes.",
       "A funcionalidade de RSVP permite que os convidados confirmem sua participação preenchendo um formulário simples, que pode incluir acompanhantes e observações específicas, como restrições alimentares. Esses dados são armazenados no banco e ficam disponíveis para consulta pelo administrador, que pode exportar relatórios de participação em formato CSV.",
@@ -13,6 +17,8 @@ export const projects = [
   },
   {
     id: 2,
+    projectCategory: "Projeto Real",
+    ulrImg: teste,
     name: "Form ADMCN",
     resume:
       "Aplicação web desenvolvida para padronizar os formulários enviados pelas congregações na reunião ministerial. O sistema permite que o usuário preencha os dados online e gere automaticamente um PDF formatado, garantindo organização e consistência.",
@@ -25,6 +31,8 @@ export const projects = [
   },
   {
     id: 3,
+    projectCategory: "Freelancer",
+    ulrImg: teste,
     name: "Landing Page Hosting (SB4Host)",
     resume:
       "Landing page moderna e responsiva para empresa de hospedagem, construída com Next.js e Tailwind CSS, incluindo tabelas de preços dinâmicas integradas com a API do WHMCS.",
@@ -36,6 +44,8 @@ export const projects = [
   },
   {
     id: 4,
+    projectCategory: "Projeto Acadêmico",
+    ulrImg: teste,
     name: "Projeto NLW Agents",
     resume:
       "Aplicação full stack desenvolvida durante o NLW (Rocketseat), utilizando React no front-end e Node.js/Fastify no back-end, com Postgres e Drizzle ORM. O projeto explora conceitos modernos de APIs, agentes inteligentes e integração com IA.",
