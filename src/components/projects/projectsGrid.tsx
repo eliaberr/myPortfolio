@@ -1,28 +1,30 @@
+import type { ProjectsGridProps } from "../../types/projectsGridType";
 import { projects } from "../../utils/projects";
 import { ProjectsCard } from "./projectsCard";
 
-export function ProjectsGrid() {
-    const reverce = (index: number) => {
-      let test = index%2
-      if (test == 0) {
-        return false
-      } else {
-        return true
-      }
+export function ProjectsGrid({ onClick }: ProjectsGridProps) {
+  const reverce = (index: number) => {
+    const test = index % 2;
+    if (test == 0) {
+      return false;
+    } else {
+      return true;
     }
+  };
 
-    return (
-        <div className="mt-10 grid gap-20">
-            {projects.map((item, index) => (
-                <ProjectsCard
-                    projectCategory={item.projectCategory}
-                    resume={item.resume}
-                    title={item.name}
-                    urlImg={item.ulrImg}
-                    key={index}
-                    reverse={reverce(index)}
-                />
-            ))}
-        </div>
-    );
+  return (
+    <div className="mt-10 grid gap-20">
+      {projects.map((item, index) => (
+        <ProjectsCard
+          projectCategory={item.projectCategory}
+          resume={item.resume}
+          title={item.name}
+          urlImg={item.ulrImg}
+          key={index}
+          reverse={reverce(index)}
+          onClick={() => onClick?.(item.id)}
+        />
+      ))}
+    </div>
+  );
 }

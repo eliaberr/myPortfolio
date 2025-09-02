@@ -4,4 +4,5 @@ export interface ProjectsCardProps {
     resume: string,
     urlImg: string,
     reverse: boolean
+    onClick: (id: number) => void;
 }

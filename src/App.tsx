@@ -1,6 +1,7 @@
 import { NavBar } from "./components/navBar/navBar";
 import { Home } from "./page/home";
 import { Projects } from "./page/projects";
+import { Contact } from "./page/contact";
 
 export default function App() {
   return (
@@ -8,6 +9,7 @@ export default function App() {
       <NavBar/>
       <Home/>
       <Projects/>
+      <Contact/>
     </main>
   );
 }
