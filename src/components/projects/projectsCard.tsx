@@ -7,13 +7,14 @@ export function ProjectsCard({
     resume,
     urlImg,
     reverse,
-    onClick
+    onClick,
 }: ProjectsCardProps) {
     const [cardPrimaryColor, setCardPrimaryColor] = useState("bg-blue-300");
     const [cardTextPrimaryColor, setCardTextPrimaryColor] =
         useState("text-blue-700");
     const [buttonPrimaryColor, setButtonPrimaryColor] = useState("bg-blue-700");
-    const [hoverButtonPrimaryColor, setHoverButtonPrimaryColor] = useState("hover:bg-blue-800");
+    const [hoverButtonPrimaryColor, setHoverButtonPrimaryColor] =
+        useState("hover:bg-blue-800");
 
     useEffect(() => {
         const colorCard = () => {
@@ -47,7 +48,7 @@ export function ProjectsCard({
                 reverse ? "flex-row-reverse" : ""
             }`}
         >
-            <div className="my-auto flex-1 relative">
+            <div className="my-auto relative flex-1/2">
                 <span
                     className={`absolute -top-7 left-0 px-2 text-[12px] font-bold rounded-full ${cardPrimaryColor} ${cardTextPrimaryColor}`}
                 >
@@ -63,7 +64,9 @@ export function ProjectsCard({
                     Saiba mais
                 </button>
             </div>
-            <img src={urlImg} alt={urlImg} />
+            <div className="flex-1/2 h-full">
+                <img className="h-full rounded" src={urlImg} alt={urlImg} />
+            </div>
         </div>
     );
 }

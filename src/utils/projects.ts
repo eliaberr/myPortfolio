@@ -1,4 +1,6 @@
 import teste from "../assets/imgCardTest.png";
+import imgFormAdmcn from "../assets/imgFormAdmcn.jpg"
+import imgSb4Host from "../assets/imgSb4Host.jpg"
 
 export const projects = [
   {
@@ -14,7 +16,7 @@ export const projects = [
       deploy: "",
       video: "https://youtu.be/JOvp74PbhrU"
     },
-    ulrImg: teste,
+    ulrImg: imgFormAdmcn,
     resume:
       "Desenvolvi um site interativo de casamento com páginas informativas, RSVP e lista de presentes com QR Code PIX, utilizando React/Next.js no front-end e Node.js/Express no back-end, priorizando desempenho e usabilidade.",
     description: [
@@ -27,7 +29,7 @@ export const projects = [
   {
     id: 2,
     projectCategory: "Projeto Real",
-    ulrImg: teste,
+    ulrImg: imgFormAdmcn,
     name: "Form ADMCN",
     technologiesUsed: "Next.js e Tailwind CSS",
     libraries: "HTML2PDF.js, React Icons, Tailwind CSS",
@@ -49,7 +51,7 @@ export const projects = [
   {
     id: 3,
     projectCategory: "Freelancer",
-    ulrImg: teste,
+    ulrImg: imgSb4Host,
     name: "Landing Page Hosting (SB4Host)",
     technologiesUsed: "Next.js 15, React 19, Tailwind CSS e Framer Motion",
     libraries:
@@ -71,7 +73,7 @@ export const projects = [
   {
     id: 4,
     projectCategory: "Projeto Acadêmico",
-    ulrImg: teste,
+    ulrImg: imgFormAdmcn,
     name: "Projeto NLW Agents",
     technologiesUsed:
       "React + Vite, Tailwind CSS, Node.js/Fastify, PostgreSQL e Drizzle ORM",

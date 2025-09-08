@@ -1,23 +1,8 @@
 import { FaLinkedin, FaWhatsapp } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
+import { openEmial, openLinkedin, openWhatsApp } from "../utils/linksSocialMidias";
 
 export function Contact() {
-  const openLinkedin = () => {
-    const url = "https://www.linkedin.com/in/eliabe-rodrigues-8909a320b/";
-    window.open(url, "_blank");
-  };
-  const openWhatsApp = () => {
-    const phone = "5511951285687";
-    const mensage = "Olá, vim pelo seu portfólio.";
-    const url = `https://wa.me/${phone}?text=${encodeURIComponent(mensage)}`;
-    window.open(url, "_blank");
-    console.log(url);
-  };
-  const openEmial = () => {
-    const email = "eliabe859@gmail.com";
-    window.open(`mailto:${email}`, "_blank");
-  };
-
   const infoButton = [
     {
       name: "Email",

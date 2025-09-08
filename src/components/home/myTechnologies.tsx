@@ -1,4 +1,4 @@
-import { FaNodeJs, FaJava, FaDocker } from "react-icons/fa";
+import { FaNodeJs, FaJava, FaDocker, FaAngular } from "react-icons/fa";
 import {
     SiSpringboot,
     SiTypescript,
@@ -27,6 +27,10 @@ export function MyTechnologies() {
     {
       name: "Next.JS",
       icon: <SiNextdotjs className="group-hover:text-gray-400" />,
+    },
+    {
+      name: "Angular",
+      icon: <FaAngular className="group-hover:text-[#DD0031]" />,
     },
     {
       name: "Spring Boot",

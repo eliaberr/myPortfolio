@@ -57,7 +57,7 @@ export function ProjectsModal({ onClick, idProject }: ProjectsModalProps) {
           <IoMdClose />
         </button>
         <div className="flex-2 text-start flex flex-col">
-          <img src={imgCardTest} alt="teste" className="w-[300px] flex-2" />
+          <img src={project.ulrImg} alt="teste" className="w-[300px] flex-2" />
           <div className="mt-5 flex flex-col justify-centers gap-5 flex-3 py-5 pe-10 font-semibold">
             {infoProjects.map((item) => (
               <h2>
