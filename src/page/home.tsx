@@ -4,7 +4,7 @@ import { openWhatsApp } from "../utils/linksSocialMidias";
 
 export function Home() {
   return (
-    <section className="w-[1120px] h-[600px] mx-auto flex flex-col justify-center px-24">
+    <section id="home" className="w-[1120px] h-[600px] mx-auto flex flex-col justify-center px-24">
       <div className="flex justify-between items-center">
         <div className="flex flex-col justify-center gap-5 w-[450px] h-[274px]">
           <h1 className="text-[44px] font-bold">Eliabe Rodrigues</h1>

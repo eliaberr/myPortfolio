@@ -1,6 +1,7 @@
-import teste from "../assets/imgCardTest.png";
 import imgFormAdmcn from "../assets/imgFormAdmcn.jpg"
 import imgSb4Host from "../assets/imgSb4Host.jpg"
+import imgCasamentoLaisEEliabe from "../assets/imgCasamentoLaisEEliabe.png"
+import imgNlw from "../assets/imgNlw.png"
 
 export const projects = [
   {
@@ -12,11 +13,13 @@ export const projects = [
       "Bootstrap, React Bootstrap, React Router DOM, React Icons, QRCode, React QR Code, React Input Mask, jQuery, jQuery Mask Plugin, React Phone Number Input, React Currency Input Field, React Number Format, React Copy To Clipboard, Pix Utils, Buffer",
     urlButton: {
       backEnd: "https://github.com/eliaberr/prjCasamentoBackend",
-      frontEnd: "https://github.com/eliaberr/prjCasamento",
+      
+      video: "https://youtu.be/JOvp74PbhrU",
       deploy: "",
-      video: "https://youtu.be/JOvp74PbhrU"
+      frontEnd: "https://github.com/eliaberr/prjCasamento",
+      
     },
-    ulrImg: imgFormAdmcn,
+    ulrImg: imgCasamentoLaisEEliabe,
     resume:
       "Desenvolvi um site interativo de casamento com páginas informativas, RSVP e lista de presentes com QR Code PIX, utilizando React/Next.js no front-end e Node.js/Express no back-end, priorizando desempenho e usabilidade.",
     description: [
@@ -73,7 +76,7 @@ export const projects = [
   {
     id: 4,
     projectCategory: "Projeto Acadêmico",
-    ulrImg: imgFormAdmcn,
+    ulrImg: imgNlw,
     name: "Projeto NLW Agents",
     technologiesUsed:
       "React + Vite, Tailwind CSS, Node.js/Fastify, PostgreSQL e Drizzle ORM",
