@@ -22,7 +22,7 @@ export function Contact() {
   ];
 
   return (
-    <div id="contacts" className="flex flex-col gap-2 max-w-xl mx-auto text-center pt-10">
+    <div id="contacts" className="flex flex-col gap-2 max-w-xl mx-auto text-center py-10">
       <h2 className="font-bold text-[34px]">Entre em Contato</h2>
       <p className="text-gray-500 text-sm  mx-auto">
         Quer saber mais sobre meus projetos, trocar ideias ou até mesmo fechar

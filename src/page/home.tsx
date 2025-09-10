@@ -13,7 +13,7 @@ export function Home() {
             tecnologia para transformar ideias em projetos reais, sempre
             buscando aprender mais e entregar soluções com qualidade
           </p>
-          <button onClick={openWhatsApp} className="w-[307px] h-16 bg-[#3F8E00] rounded-sm cursor-pointer shadow-[#00ffb35d] hover:shadow-lg ">
+          <button onClick={openWhatsApp} className="w-[307px] h-16 bg-[#3F8E00] rounded-sm cursor-pointer hover:bg-[#408e00bc] ">
             Contate me
           </button>
         </div>

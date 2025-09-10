@@ -1,9 +1,13 @@
 import { OptionsNavBar } from "./optionsNavBar";
+import { SocialMidia } from "./socialMidia";
 
 export function NavBar() {
     return (
         <nav className="bg-[#1B1B1B] w-[1120px] h-[70px] mx-auto rounded-b-xl flex flex-col place-content-center">
-            <OptionsNavBar/>
+            <div className="text-gray-300 grid grid-cols-12 ">
+                <OptionsNavBar />
+                <SocialMidia />
+            </div>
         </nav>
-    )
+    );
 }
