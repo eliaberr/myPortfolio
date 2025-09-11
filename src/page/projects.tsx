@@ -12,10 +12,10 @@ export function Projects() {
 
   return (
     <section id="projects" className="bg-[#F5F5F5] text-black pt-20 pb-20 ">
-      <div className="px-5 mx-auto md:px-24 md:w-[1120px]">
+      <div className="px-5 mx-auto lg:px-24 lg:w-[1120px]">
         <div className="text-center">
           <h2 className="font-bold text-[34px]">Meus Projetos</h2>
-          <p className="text-gray-500 text-sm mx-auto md:max-w-2xl">
+          <p className="text-gray-500 text-sm mx-auto lg:max-w-2xl">
             Alguns dos meus trabalhos desenvolvidos como freelancer, voltados
             para atender demandas reais, e por projetos acadêmicos realizados em
             cursos e na faculdade, que contribuíram significativamente para a

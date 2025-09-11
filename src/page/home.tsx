@@ -6,10 +6,10 @@ export function Home() {
     return (
         <section
             id="home"
-            className="md:w-[1120px] md:h-[600px] mx-auto flex flex-col justify-center px-5 py-20 animate-fade-left md:px-24"
+            className="lg:w-[1120px] lg:h-[600px] mx-auto flex flex-col justify-center px-5 py-20 animate-fade-left lg:px-24"
         >
-            <div className="flex justify-between items-center flex-col md:flex-row">
-                <div className="flex flex-col justify-center gap-5 w-[350px] h-[274px] text-center md:text-start md:w-[450px]">
+            <div className="flex justify-between items-center flex-col lg:flex-row">
+                <div className="flex flex-col justify-center gap-5 w-[350px] h-[274px] text-center lg:text-start lg:w-[450px]">
                     <h1 className="text-[44px] font-bold">Eliabe Rodrigues</h1>
                     <p className="text-sm ">
                         Olá, sou desenvolvedor Full Stack! Gosto de unir
@@ -19,7 +19,7 @@ export function Home() {
                     </p>
                     <button
                         onClick={openWhatsApp}
-                        className="w-[307px] mx-auto h-16 bg-[#3F8E00] rounded-sm cursor-pointer hover:bg-[#408e00bc] md:mx-0 "
+                        className="w-[307px] mx-auto h-16 bg-[#3F8E00] rounded-sm cursor-pointer hover:bg-[#408e00bc] lg:mx-0 "
                     >
                         Contate me
                     </button>

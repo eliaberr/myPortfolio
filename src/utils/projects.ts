@@ -13,10 +13,9 @@ export const projects = [
       "Bootstrap, React Bootstrap, React Router DOM, React Icons, QRCode, React QR Code, React Input Mask, jQuery, jQuery Mask Plugin, React Phone Number Input, React Currency Input Field, React Number Format, React Copy To Clipboard, Pix Utils, Buffer",
     urlButton: {
       backEnd: "https://github.com/eliaberr/prjCasamentoBackend",
-      
-      video: "https://youtu.be/JOvp74PbhrU",
-      deploy: "",
       frontEnd: "https://github.com/eliaberr/prjCasamento",
+      deploy: "",
+      video: "https://youtu.be/JOvp74PbhrU",
       
     },
     ulrImg: imgCasamentoLaisEEliabe,
