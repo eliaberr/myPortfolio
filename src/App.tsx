@@ -10,8 +10,8 @@ export default function App() {
       <NavBar/>
       <Home/>
       <Projects/>
-      <Contact/>
-      <Footer/>
+      {/*<Contact/>
+      <Footer/> */}
     </main>
   );
 }

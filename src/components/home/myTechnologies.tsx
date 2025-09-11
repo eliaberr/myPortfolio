@@ -42,15 +42,15 @@ export function MyTechnologies() {
     },
   ];
     return (
-        <div className="mt-10">
+        <div className="mt-20 text-center md:text-start md:py-10">
             <h3>Tech Stack</h3>
             <div className="flex justify-start">
-                <div className="flex justify-start ms-10">
+                <div className="grid grid-cols-4 w-[350px] mt-5 mx-auto md:flex md:w-auto md:ms-10 md:mt-0">
                     {technologies.map((item, index) => (
                         <div
                             key={index}
-                            className="hover:bg-[#1B1B1B] cursor-pointer w-[80px] hover:w-[150px] h-14 px-1 text-3xl flex items-center gap-2 rounded-lg group relative
-                                      transition-all duration-300 ease-in-out origin-left"
+                            className="hover:bg-[#1B1B1B] cursor-pointer w-[80px] hover:w-[150px] h-14 px-1 text-3xl flex justify-center items-center gap-2 rounded-lg group relative
+                                      transition-all duration-300 ease-in-out origin-left md:justify-start"
                         >
                             {item.icon}
                             <span
