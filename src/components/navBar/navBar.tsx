@@ -3,7 +3,6 @@ import { OptionsNavBar } from "./optionsNavBar";
 import { SocialMidia } from "./socialMidia";
 import { MenuMobile } from "./menuMobile";
 import { useState } from "react";
-import { FaBedPulse } from "react-icons/fa6";
 
 export function NavBar() {
     const [openMenu, setOpenMenu] = useState(false);
