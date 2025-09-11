@@ -44,13 +44,13 @@ export function ProjectsCard({
 
     return (
         <div
-            className={`max-w-[890px] mx-auto h-[300px] flex overflow-hidden gap-3 ${
-                reverse ? "flex-row-reverse" : ""
+            className={`mx-auto h-[500px] flex overflow-hidden gap-3 md:max-w-[890px] flex-col-reverse md:h-[300px] md:flex-row animate-fade-up animate-once ${
+                reverse ? "md:flex-row-reverse" : ""
             }`}
         >
             <div className="my-auto relative flex-1/2">
                 <span
-                    className={`absolute -top-7 left-0 px-2 text-[12px] font-bold rounded-full ${cardPrimaryColor} ${cardTextPrimaryColor}`}
+                    className={`absolute -top-[30px] left-0 px-2 text-[12px] font-bold rounded-bl md:rounded-full md:-top-7 ${cardPrimaryColor} ${cardTextPrimaryColor}`}
                 >
                     {projectCategory}
                 </span>

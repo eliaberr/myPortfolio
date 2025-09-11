@@ -1,6 +1,5 @@
 import { FaGithub, FaYoutube, FaGlobe } from "react-icons/fa";
 import { IoMdClose } from "react-icons/io";
-import imgCardTest from "../../assets/imgCardTest.png";
 import type { ProjectsModalProps } from "../../types/projectsModalType";
 import { projects } from "../../utils/projects";
 
