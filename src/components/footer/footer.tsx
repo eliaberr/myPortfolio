@@ -8,7 +8,7 @@ export default function Footer() {
                 Desenvovido por{" "}
                 <span
                     onClick={easterEgg}
-                    className="hover:text-[#3F8E00] cursor-pointer"
+                    className="hover:text-[#3F8E00] cursor-pointer underline"
                 >
                     Eliabe Rodrigues
                 </span>

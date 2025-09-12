@@ -2,14 +2,28 @@ import { IoMdClose } from "react-icons/io";
 import type { ProjectsModalProps } from "../../types/projectsModalType";
 import { projects } from "../../utils/projects";
 import { infoButton, infoProjects } from "../../utils/infoModal";
+import { motion } from "motion/react";
 
 export function ProjectsModal({ onClick, idProject }: ProjectsModalProps) {
   return (
-    <div className="mx-auto h-screen flex flex-col justify-center items-center fixed top-0 backdrop-blur-md text-center lg:w-full py-5">
-      <div className="bg-white w-[95%] shadow-blue-950 shadow px-3 py-10 rounded relative overflow-auto lg:w-[1000px] lg:h-[700px] lg:flex lg:flex-row lg:px-10">
+    <motion.div
+      className="mx-auto h-screen flex flex-col justify-center items-center fixed top-0 backdrop-blur-md text-center lg:w-full py-5"
+      initial={{ opacity: 0 }}
+      animate={{ opacity: 1 }}
+      exit={{ opacity: 0 }}
+      transition={{ duration: 0.6, ease: "easeInOut" }}
+    >
+      <motion.div
+        className="bg-white w-[95%] shadow-blue-950 shadow px-3 py-10 rounded relative overflow-auto lg:w-[1000px] lg:h-[700px] lg:flex lg:flex-row lg:px-10"
+        key="modal"
+        initial={{ scale: 0.2, opacity: 0 }}
+        animate={{ scale: 1, opacity: 1 }}
+        exit={{ scale: 0.2, opacity: 0 }}
+        transition={{ duration: 0.4, ease: "easeInOut" }}
+      >
         <button
           onClick={onClick}
-          className="absolute top-2 right-3 w-7 h-7 border rounded-full flex justify-center items-center text-red-600 cursor-pointer hover:bg-red-600 hover:text-black"
+          className="fixed top-6 right-5 w-7 h-7 border rounded-full flex justify-center items-center text-red-600 cursor-pointer hover:bg-red-600 hover:text-black lg:absolute lg:top-1 lg:right-2"
         >
           <IoMdClose />
         </button>
@@ -48,7 +62,7 @@ export function ProjectsModal({ onClick, idProject }: ProjectsModalProps) {
             <p key={index}>{item}</p>
           ))}
         </div>
-      </div>
-    </div>
+      </motion.div>
+    </motion.div>
   );
 }
