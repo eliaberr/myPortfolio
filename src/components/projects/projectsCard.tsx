@@ -1,8 +1,10 @@
 import { useEffect, useState } from "react";
-import type { ProjectsCardProps } from "../../types/projectsCardType";
+import type { ProjectsCardProps } from "../../lib/types/projectsCardType";
 import { motion } from "motion/react";
+import { useLanguage } from "../../lib/i18n/useLanguage";
 
 export function ProjectsCard({
+  idProject,
   projectCategory,
   title,
   resume,
@@ -16,6 +18,7 @@ export function ProjectsCard({
   const [buttonPrimaryColor, setButtonPrimaryColor] = useState("bg-blue-700");
   const [hoverButtonPrimaryColor, setHoverButtonPrimaryColor] =
     useState("hover:bg-blue-800");
+  const { t } = useLanguage();
 
   useEffect(() => {
     const colorCard = () => {
@@ -57,7 +60,7 @@ export function ProjectsCard({
         <span
           className={`absolute -top-[30px] left-0 px-2 text-[12px] font-bold rounded-bl lg:rounded-full lg:-top-7 ${cardPrimaryColor} ${cardTextPrimaryColor}`}
         >
-          {projectCategory}
+          {t(`projectCategory${idProject}`)}
         </span>
         <h2 className="text-2xl font-bold">{title}</h2>
         <p className="text-sm mt-3 h-32">{resume}</p>
@@ -66,7 +69,7 @@ export function ProjectsCard({
           className={`w-44 h-9 rounded mt-7 flex-1 text-white cursor-pointer ${buttonPrimaryColor} ${hoverButtonPrimaryColor}`}
           onClick={onClick}
         >
-          Saiba mais
+          {t("titleButton")}
         </button>
       </div>
       <div className="flex-1/2 h-full">

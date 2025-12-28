@@ -1,0 +1,78 @@
+{
+  "translation": {
+    "home": "Home",
+    "projects": "Projetos",
+    "contact": "Contato",
+
+    "welcomeDescription": " Olá, sou desenvolvedor Full Stack! Gosto de unir criatividade e tecnologia para transformar ideias em projetos reais, sempre buscando aprender mais e entregar soluções com qualidade",
+    "ContactMe": "Contate-me",
+
+    "projectTitleSection": "Meus Projetos",
+    "projectDescriptionSection": "Alguns dos meus trabalhos desenvolvidos como freelancer, voltados para atender demandas reais, e por projetos acadêmicos realizados em cursos e na faculdade, que contribuíram significativamente para a ampliação dos meus conhecimentos.",
+    "titleButton": "Ver Projeto",
+
+    "contactTitle":"Meus contatos",
+    "contactDescription":"Quer saber mais sobre meus projetos, trocar ideias ou até mesmo fechar uma parceria? Me mande uma mensagem pelo WhatsApp, e-mail ou LinkedIn clicando nos botões abaixo.",
+    
+    "fotterDescription":"Desenvovido por",
+    "footerEasterEggs":"Obrigado por visitar meu portfólio!",
+
+    "mensageWhatsApp":"Olá! Gostaria de saber mais sobre seus projetos e serviços.",
+
+    "projectDetailsModalInfo": "Descrição de Projeto",
+    "projectNameModalInfo": "Nome do Projeto",
+    "projectCategoryModalInfo": "Tipo de Projeto",
+    "projectTechnologysModalInfo": "Tecnologias Utilizadas",
+    "projectLibrariesModalInfo": "Bibliotecas Utilizadas",
+
+    "projectTitle1": "Projeto Casamento Laís e Eliabe",
+    "projectResume1": "Desenvolvi um site interativo de casamento com páginas informativas, RSVP e lista de presentes com QR Code PIX, utilizando React/Next.js no front-end e Node.js/Express no back-end, priorizando desempenho e usabilidade.",
+    "projectCategory1": "Projeto Pessoal",
+
+    "project_1_description_paragraph_1": "O Site de Casamento foi desenvolvido com o objetivo de centralizar todas as informações do evento em um único lugar, oferecendo aos convidados praticidade e uma experiência interativa. A aplicação reúne história do casal, detalhes do evento, como local, data, dress code, além de links diretos para navegação via Google Maps ou Waze.",
+    "project_1_description_paragraph_2": "A plataforma conta com um sistema de confirmação de presença (RSVP), onde os convidados podem confirmar participação de forma simples e intuitiva. O formulário permite informar acompanhantes e observações adicionais, facilitando o controle e a organização do evento.",
+    "project_1_description_paragraph_3": "Os dados enviados no RSVP são armazenados em banco de dados e ficam disponíveis para consulta administrativa. O sistema possibilita a visualização das confirmações e a exportação de relatórios, auxiliando no planejamento e na tomada de decisões.",
+    "project_1_description_paragraph_4": "A lista de presentes foi projetada para tornar o processo mais prático e acessível. Cada presente possui descrição, imagem e valor, podendo ser adquirido via links externos ou por meio de pagamento PIX com QR Code, permitindo o acompanhamento em tempo real.",
+    "project_1_description_paragraph_5": "Do ponto de vista técnico, o projeto foi desenvolvido com React/Next.js no front-end e Node.js/Express no back-end, integrados a um banco de dados relacional. O layout responsivo foi construído com CSS e Bootstrap, garantindo boa experiência em diferentes dispositivos.",
+
+    "projectTitle2": "Form ADMCN",
+    "projectResume2": "Aplicação web desenvolvida para padronizar os formulários enviados pelas congregações na reunião ministerial. O sistema permite que o usuário preencha os dados online e gere automaticamente um PDF formatado, garantindo organização e consistência.",
+    "projectCategory2": "Projeto Real",
+
+    "project_2_description_paragraph_1": "O Form ADMCN foi desenvolvido com o objetivo de padronizar os formulários enviados pelas congregações durante as reuniões ministeriais, centralizando informações e reduzindo erros no preenchimento manual.",
+    "project_2_description_paragraph_2": "A aplicação permite que os usuários preencham os dados diretamente no sistema, seguindo um fluxo organizado e intuitivo, garantindo que todas as informações necessárias sejam fornecidas corretamente.",
+    "project_2_description_paragraph_3": "Após o preenchimento, o sistema gera automaticamente um documento em PDF com layout padronizado, facilitando a leitura, o arquivamento e a apresentação das informações em reuniões administrativas.",
+    "project_2_description_paragraph_4": "O projeto foi pensado para melhorar a organização interna, reduzir retrabalho e eliminar inconsistências nos dados enviados pelas congregações, trazendo mais eficiência ao processo.",
+    "project_2_description_paragraph_5": "Com uma interface simples e funcional, o Form ADMCN se tornou uma ferramenta prática para apoio administrativo, unindo tecnologia e organização em um único sistema.",
+
+    "projectTitle3": "Landing Page Hosting (SB4Host)",
+    "projectResume3": "Landing page moderna e responsiva para empresa de hospedagem, construída com Next.js e Tailwind CSS, incluindo tabelas de preços dinâmicas integradas com a API do WHMCS.",
+    "projectCategory3": "Freelancer",
+
+    "project_3_description_paragraph_1": "A Landing Page Hosting foi desenvolvida para a empresa SB4Host com foco na captação de clientes e na apresentação clara dos planos e serviços de hospedagem.",
+    "project_3_description_paragraph_2": "O site possui um design moderno, limpo e totalmente responsivo, organizado em seções estratégicas como apresentação dos serviços, planos, benefícios, contato e chamadas para ação.",
+    "project_3_description_paragraph_3": "Um dos principais diferenciais foi a integração com a API do WHMCS, permitindo que os valores dos planos fossem exibidos de forma dinâmica e sempre atualizados conforme o sistema de gestão.",
+    "project_3_description_paragraph_4": "Essa integração eliminou a necessidade de atualizações manuais de preços, reduzindo retrabalho e evitando inconsistências entre o site e a plataforma de gerenciamento.",
+    "project_3_description_paragraph_5": "O resultado foi uma landing page eficiente, funcional e alinhada às necessidades do negócio, atuando como uma ferramenta estratégica para conversão e apresentação profissional da marca.",
+
+    "projectTitle4": "Projeto NLW Agents",
+    "projectResume4": "Aplicação full stack desenvolvida durante o NLW (Rocketseat), utilizando React no front-end, Node.js/Fastify no back-end e PostgreSQL com Drizzle ORM.",
+    "projectCategory4": "projeto Acadêmico",
+
+    "project_4_description_paragraph_1": "O projeto NLW Agents foi desenvolvido durante a imersão NLW da Rocketseat, com foco na aplicação de boas práticas de desenvolvimento full stack e uso de tecnologias modernas.",
+    "project_4_description_paragraph_2": "No front-end, a aplicação foi construída em React, explorando conceitos de componentização, gerenciamento de estado e consumo de APIs, garantindo uma interface fluida e organizada.",
+    "project_4_description_paragraph_3": "O back-end foi desenvolvido com Node.js e Fastify, utilizando Drizzle ORM para integração com o banco de dados PostgreSQL, além de validações com Zod e organização em camadas.",
+    "project_4_description_paragraph_4": "Durante o desenvolvimento, foram explorados conceitos como upload de arquivos, validação de dados, estruturação de APIs e integração entre front-end e back-end.",
+    "project_4_description_paragraph_5": "Esse projeto foi essencial para consolidar conhecimentos em arquitetura full stack, reforçando a integração entre diferentes tecnologias do ecossistema JavaScript.",
+  
+    "projectTitle5": "Casamento Isabelly e Matheus",
+    "projectResume5": "Desenvolvi um site interativo de casamento com informações do evento, história do casal, contador regressivo e lista de presentes com opções de PIX via QR Code e compra online, utilizando Next.js e animações com Framer Motion, priorizando desempenho e experiência do usuário.",
+    "projectCategory5": "Freelancer",
+
+    "project_5_description_paragraph_1": "O projeto consiste em um site de casamento desenvolvido com o objetivo de apresentar, de forma simples e elegante, todas as informações relacionadas ao evento. A aplicação foi construída utilizando Next.js, com foco em performance, organização do código e boa experiência do usuário. O layout foi pensado para ser leve, intuitivo e acessível em diferentes dispositivos.",
+    "project_5_description_paragraph_2": "No front-end, o site reúne informações essenciais sobre o casamento, como a história do casal, fotos, data, horário e local da cerimônia e da recepção. Também foi implementado um contador regressivo que realiza a contagem até o grande dia, criando um elemento visual dinâmico e interativo para os convidados acompanharem a proximidade do evento.",
+    "project_5_description_paragraph_3": "Para enriquecer a experiência visual, foram utilizadas animações com Framer Motion e Twindie Animation, aplicadas de forma sutil para dar fluidez às transições e destacar elementos importantes da página. Essas animações contribuem para tornar a navegação mais agradável sem comprometer o desempenho do site.",
+    "project_5_description_paragraph_4": "Outro ponto central do projeto é a lista de presentes, organizada em cards que exibem os itens disponíveis de forma clara e visual. Os convidados podem escolher diferentes formas de presentear, como levar o presente no dia do casamento, realizar o pagamento via PIX ou comprar o presente online e levá-lo no evento.",
+    "project_5_description_paragraph_5": "Na opção de pagamento via PIX, o sistema disponibiliza todas as informações necessárias, incluindo QR Code e código copia e cola, facilitando a transferência. Já na opção de compra online, o convidado é redirecionado diretamente para o site do produto escolhido, oferecendo praticidade, flexibilidade e uma experiência completa para o casal e os convidados."
+  }
+}

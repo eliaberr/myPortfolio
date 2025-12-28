@@ -4,9 +4,11 @@ import { SocialMidia } from "./socialMidia";
 import { MenuMobile } from "./menuMobile";
 import { useState } from "react";
 import { AnimatePresence, motion } from "motion/react";
+import { TranslationButton } from "../traslationButton/tranlationButton";
 
 export function NavBar() {
   const [openMenu, setOpenMenu] = useState(false);
+
   return (
     <nav>
       <motion.div
@@ -17,16 +19,22 @@ export function NavBar() {
         <div className="text-gray-300 grid-cols-12 hidden bg-[#1B1B1B] lg:w-[1120px] lg:grid h-[70px] mx-auto place-content-center rounded-b-xl">
           <OptionsNavBar />
           <SocialMidia />
+          <TranslationButton />
         </div>
         <div className="grid lg:hidden relative">
-          <button
-            onClick={() => setOpenMenu(true)}
-            className={`w-10 h-10 items-center justify-center text-3xl absolute end-5 top-5 ${
+          <div
+            className={`flex items-center justify-baseline gap-5 absolute end-5 top-5 ${
               openMenu ? "hidden" : "flex"
             }`}
           >
-            <FaHamburger />
-          </button>
+            <TranslationButton />
+            <button
+              onClick={() => setOpenMenu(true)}
+              className={"w-10 h-10 items-center justify-center text-3xl "}
+            >
+              <FaHamburger />
+            </button>
+          </div>
           <AnimatePresence>
             {openMenu && (
               <motion.div

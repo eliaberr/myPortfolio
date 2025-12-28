@@ -1,0 +1,78 @@
+{
+  "translation": {
+    "home": "Home",
+    "projects": "Projects",
+    "contact": "Contact",
+
+    "welcomeDescription": "Hello, I'm Full Stack developer! I enjoy combining creativity and technology to turn ideas into real projects, always aiming to learn more and deliver high-quality solutions.",
+    "ContactMe": "Contact me",
+
+    "projectTitleSection": "My Projects",
+    "projectDescriptionSection": "Some of my work developed as a freelancer, focused on meeting real-world demands, as well as academic projects carried out in courses and at college, which significantly contributed to the expansion of my knowledge.",
+    "titleButton": "View Project",
+
+    "contactTitle": "My Contacts",
+    "contactDescription": "Want to learn more about my projects, exchange ideas, or even start a partnership? Feel free to reach out via WhatsApp, email, or LinkedIn by clicking the buttons below.",
+
+    "fotterDescription": "Developed by",
+    "footerEasterEggs": "Thank you for visiting my portfolio!",
+
+    "mensageWhatsApp": "Hello! I would like to know more about your projects and services.",
+
+    "projectDetailsModalInfo": "Project Details",
+    "projectNameModalInfo": "Project Name",
+    "projectCategoryModalInfo": "Project Type",
+    "projectTechnologysModalInfo": "Technologies Used",
+    "projectLibrariesModalInfo": "Libraries Used",
+
+    "projectTitle1": "Wedding Project - Laís and Eliabe",
+    "projectResume1": "I developed an interactive wedding website featuring informational pages, RSVP, and a gift list with PIX QR Code, using React/Next.js on the front-end and Node.js/Express on the back-end, prioritizing performance and usability.",
+    "projectCategory1": "Personal Project",
+
+    "project_1_description_paragraph_1": "The Wedding Website was developed with the goal of centralizing all event information in one place, offering guests convenience and an interactive experience. The application brings together the couple’s story, event details such as location, date, dress code, and direct navigation links via Google Maps or Waze.",
+    "project_1_description_paragraph_2": "The platform includes an RSVP system that allows guests to confirm their attendance in a simple and intuitive way. The form supports additional guests and optional notes, making event organization more efficient.",
+    "project_1_description_paragraph_3": "All RSVP data is securely stored in a database and made available for administrative access. The system allows organizers to view confirmations and export reports, supporting better planning and decision-making.",
+    "project_1_description_paragraph_4": "The gift list was designed to make contributions easy and accessible. Each gift includes a description, image, and value, and can be purchased via external links or through PIX payment using a QR Code, enabling real-time tracking.",
+    "project_1_description_paragraph_5": "From a technical perspective, the project was built using React/Next.js on the front-end and Node.js/Express on the back-end, integrated with a relational database. The responsive layout was implemented with CSS and Bootstrap to ensure a consistent experience across devices.",
+
+    "projectTitle2": "Form ADMCN",
+    "projectResume2": "Web application developed to standardize forms submitted by congregations during ministerial meetings. The system allows users to fill out data online and automatically generate a formatted PDF, ensuring organization and consistency.",
+    "projectCategory2": "Real Project",
+
+    "project_2_description_paragraph_1": "Form ADMCN was developed to standardize the forms submitted by congregations during ministerial meetings, centralizing information and reducing errors caused by manual data entry.",
+    "project_2_description_paragraph_2": "The application allows users to fill out all required information directly within the system, following a structured and intuitive flow that ensures data consistency.",
+    "project_2_description_paragraph_3": "Once the form is completed, the system automatically generates a standardized PDF document, making it easier to read, archive, and present the information during administrative meetings.",
+    "project_2_description_paragraph_4": "The project was designed to improve internal organization, reduce rework, and eliminate inconsistencies in data submitted by congregations, increasing overall efficiency.",
+    "project_2_description_paragraph_5": "With a simple and functional interface, Form ADMCN has become a practical administrative support tool, combining technology and organization in a single solution.",
+
+    "projectTitle3": "Hosting Landing Page (SB4Host)",
+    "projectResume3": "Modern and responsive hosting company landing page built with Next.js and Tailwind CSS, featuring dynamic pricing tables integrated with the WHMCS API.",
+    "projectCategory3": "Freelancer",
+
+    "project_3_description_paragraph_1": "The Hosting Landing Page was developed for the company SB4Host with a focus on customer acquisition and clear presentation of hosting plans and services.",
+    "project_3_description_paragraph_2": "The website features a modern, clean, and fully responsive design, organized into strategic sections such as services, plans, benefits, contact information, and calls to action.",
+    "project_3_description_paragraph_3": "One of its key differentiators is the integration with the WHMCS API, allowing hosting plan prices to be displayed dynamically and always remain up to date with the management system.",
+    "project_3_description_paragraph_4": "This integration eliminated the need for manual price updates, reducing operational effort and preventing inconsistencies between the website and the management platform.",
+    "project_3_description_paragraph_5": "The final result is an efficient and functional landing page that acts as a strategic tool for conversion and professional brand presentation.",
+
+    "projectTitle4": "NLW Agents Project",
+    "projectResume4": "Full stack application developed during the NLW immersion (Rocketseat), built with React on the front-end and Node.js/Fastify on the back-end, with PostgreSQL and Drizzle ORM.",
+    "projectCategory4": "Academic Project",
+
+    "project_4_description_paragraph_1": "The NLW Agents project was developed during Rocketseat’s NLW immersion, focusing on applying modern full stack development best practices.",
+    "project_4_description_paragraph_2": "On the front-end, the application was built using React, exploring concepts such as componentization, state management, and API consumption to deliver a clean and responsive interface.",
+    "project_4_description_paragraph_3": "The back-end was developed with Node.js and Fastify, using Drizzle ORM for PostgreSQL database integration, along with data validation using Zod and a layered architecture.",
+    "project_4_description_paragraph_4": "Throughout the development process, concepts such as file uploads, data validation, API structuring, and front-end/back-end integration were explored.",
+    "project_4_description_paragraph_5": "This project played a key role in consolidating full stack development knowledge, strengthening integration between different technologies within the JavaScript ecosystem.",
+
+    "projectTitle5": "Isabelly and Matheus Wedding",
+    "projectResume5": "I developed an interactive wedding website featuring event information, the couple’s story, a countdown timer, and a gift list with PIX QR Code and online purchase options, using Next.js and Framer Motion animations, focusing on performance and user experience.",
+    "projectCategory5": "Freelancer",
+
+    "project_5_description_paragraph_1": "The project consists of a wedding website developed to present all event-related information in a simple and elegant way. The application was built using Next.js, focusing on performance, code organization, and a high-quality user experience. The layout was designed to be lightweight, intuitive, and accessible across different devices.",
+    "project_5_description_paragraph_2": "On the front-end, the website displays essential wedding details such as the couple’s story, photos, date, time, and venue for both the ceremony and reception. A countdown timer was also implemented to track the days until the big day, creating a dynamic and engaging visual element for guests.",
+    "project_5_description_paragraph_3": "To enhance the visual experience, animations were implemented using Framer Motion and Twindie Animation, applied subtly to provide smooth transitions and highlight key sections of the page without compromising performance.",
+    "project_5_description_paragraph_4": "Another core feature of the project is the gift list, organized into cards that clearly display the available items. Guests can choose different ways to give gifts, such as bringing the gift on the wedding day, paying via PIX, or purchasing the gift online and bringing it to the event.",
+    "project_5_description_paragraph_5": "For PIX payments, the system provides all necessary information, including a QR Code and a copy-and-paste code, making the transfer process easier. For online purchases, guests are redirected directly to the selected product’s website, ensuring convenience, flexibility, and a complete experience for both the couple and their guests."
+  }
+}

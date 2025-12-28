@@ -1,6 +1,6 @@
 import { FaLinkedinIn } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
-import { openGitHub, openLinkedin } from "../../utils/linksSocialMidias";
+import { openGitHub, openLinkedin } from "../../lib/utils/linksSocialMidias";
 
 export function SocialMidia() {
     return (

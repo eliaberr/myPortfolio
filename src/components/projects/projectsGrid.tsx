@@ -1,5 +1,6 @@
-import type { ProjectsGridProps } from "../../types/projectsGridType";
-import { projects } from "../../utils/projects";
+import { useLanguage } from "../../lib/i18n/useLanguage";
+import type { ProjectsGridProps } from "../../lib/types/projectsGridType";
+import { projects } from "../../lib/utils/projects";
 import { ProjectsCard } from "./projectsCard";
 
 export function ProjectsGrid({ onClick }: ProjectsGridProps) {
@@ -11,14 +12,16 @@ export function ProjectsGrid({ onClick }: ProjectsGridProps) {
       return true;
     }
   };
+    const { t } = useLanguage();
 
   return (
     <div className="mt-10 grid gap-20">
       {projects.map((item, index) => (
         <ProjectsCard
+          idProject={item.id}
           projectCategory={item.projectCategory}
-          resume={item.resume}
-          title={item.name}
+          resume={t(`projectResume${item.id}`)}
+          title={t(`projectTitle${item.id}`)}
           urlImg={item.ulrImg}
           key={index}
           reverse={reverce(index)}

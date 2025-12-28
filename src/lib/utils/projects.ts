@@ -1,7 +1,8 @@
-import imgFormAdmcn from "../assets/imgFormAdmcn.jpg"
-import imgSb4Host from "../assets/imgSb4Host.jpg"
-import imgCasamentoLaisEEliabe from "../assets/imgCasamentoLaisEEliabe.png"
-import imgNlw from "../assets/imgNlw.png"
+import imgFormAdmcn from "../../assets/imgFormAdmcn.jpg"
+import imgSb4Host from "../../assets/imgSb4Host.jpg"
+import imgCasamentoLaisEEliabe from "../../assets/imgCasamentoLaisEEliabe.png"
+import imgNlw from "../../assets/imgNlw.png"
+import imgCasamentoIsabellyEMatheus from "../../assets/imgCasamentoIsabellyEMatheus.png"
 
 export const projects = [
   {
@@ -16,7 +17,7 @@ export const projects = [
       frontEnd: "https://github.com/eliaberr/prjCasamento",
       deploy: "",
       video: "https://youtu.be/JOvp74PbhrU",
-      
+
     },
     ulrImg: imgCasamentoLaisEEliabe,
     resume:
@@ -96,6 +97,31 @@ export const projects = [
       "No front-end, a aplicação foi desenvolvida em React, utilizando React Query para gerenciamento de dados, formulários e estados.",
       "No back-end, a API foi construída com Node.js/Fastify e Drizzle ORM, integrada a um banco PostgreSQL. Também foram explorados conceitos de embeddings, validações com Zod e upload de arquivos.",
       "Esse projeto consolidou práticas de arquitetura full stack e integração com tecnologias atuais do ecossistema JavaScript."
+    ]
+  },
+  {
+    id: 5,
+    name: "Casamento Isabelly e Matheus",
+    projectCategory: "Freelancer",
+    technologiesUsed: "Next.js, Tailwind CSS, motion, Node.js/Express e MySQL",
+    libraries:
+      "Next.js 15, React 19, React DOM, Tailwind CSS, Motion, React Flip Clock Countdown, React Icons, QRCode React, Pix Utils, Cleave.js",
+    urlButton: {
+      backEnd: "https://github.com/eliaberr/weddingIsaAndMateus",
+      frontEnd: "https://github.com/eliaberr/prjCasamento",
+      deploy: "https://www.izabellyematheus.com.br/",
+      video: "https://youtu.be/D3FQR7q6WAw",
+
+    },
+    ulrImg: imgCasamentoIsabellyEMatheus,
+    resume:
+      "Desenvolvi um site interativo de casamento com informações do evento, história do casal, contador regressivo e lista de presentes com opções de PIX via QR Code e compra online, utilizando Next.js e animações com Framer Motion, priorizando desempenho e experiência do usuário.",
+    description: [
+      "O projeto consiste em um site de casamento desenvolvido com o objetivo de apresentar, de forma simples e elegante, todas as informações relacionadas ao evento. A aplicação foi construída utilizando Next.js, com foco em performance, organização do código e boa experiência do usuário. O layout foi pensado para ser leve, intuitivo e acessível em diferentes dispositivos.",
+      "No front-end, o site reúne informações essenciais sobre o casamento, como a história do casal, fotos, data, horário e local da cerimônia e da recepção. Também foi implementado um contador regressivo que realiza a contagem até o grande dia, criando um elemento visual dinâmico e interativo para os convidados acompanharem a proximidade do evento.",
+      "Para enriquecer a experiência visual, foram utilizadas animações com Framer Motion e Twindie Animation, aplicadas de forma sutil para dar fluidez às transições e destacar elementos importantes da página. Essas animações contribuem para tornar a navegação mais agradável sem comprometer o desempenho do site.",
+      "Outro ponto central do projeto é a lista de presentes, organizada em cards que exibem os itens disponíveis de forma clara e visual. Os convidados podem escolher diferentes formas de presentear, como levar o presente no dia do casamento, realizar o pagamento via PIX ou comprar o presente online e levá-lo no evento.",
+      "Na opção de pagamento via PIX, o sistema disponibiliza todas as informações necessárias, incluindo QR Code e código copia e cola, facilitando a transferência. Já na opção de compra online, o convidado é redirecionado diretamente para o site do produto escolhido, oferecendo praticidade, flexibilidade e uma experiência completa para o casal e os convidados."
     ]
   }
 ];

@@ -1,22 +1,22 @@
 import { projects } from "./projects";
 import { FaGithub, FaYoutube, FaGlobe } from "react-icons/fa";
 
-export function infoProjects(idProjects: number) {
+export function infoProjects(idProjects: number, projectTitle: string, projectCategory: string) {
   const infoProjects = [
     {
-      title: "Nome do Projeto:",
-      name: projects[idProjects].name,
+      title: "Nome do Projeto",
+      name: projectTitle,
     },
     {
-      title: "Tipo do Projeto:",
-      name: projects[idProjects].projectCategory,
+      title: "Tipo do Projeto",
+      name: projectCategory,
     },
     {
-      title: "Tecnologias Ultilizadas:",
+      title: "Tecnologias Ultilizadas",
       name: projects[idProjects].technologiesUsed,
     },
     {
-      title: "Bibliotecas Ultilizadas:",
+      title: "Bibliotecas Ultilizadas",
       name: projects[idProjects].libraries,
     },
   ];

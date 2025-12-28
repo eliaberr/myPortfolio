@@ -1,10 +1,33 @@
 import { IoMdClose } from "react-icons/io";
-import type { ProjectsModalProps } from "../../types/projectsModalType";
-import { projects } from "../../utils/projects";
-import { infoButton, infoProjects } from "../../utils/infoModal";
+import type { ProjectsModalProps } from "../../lib/types/projectsModalType";
+import { projects } from "../../lib/utils/projects";
+import { infoButton, infoProjects } from "../../lib/utils/infoModal";
 import { motion } from "motion/react";
+import { useLanguage } from "../../lib/i18n/useLanguage";
 
 export function ProjectsModal({ onClick, idProject }: ProjectsModalProps) {
+  const { t } = useLanguage();
+
+  const descriptionProjects = [];
+
+  for (let i = 0; i < 5; i++) {
+    descriptionProjects.push(
+      t(`project_${idProject + 1}_description_paragraph_${i + 1}`)
+    );
+  }
+
+  const titleModalInfo = (title: string) => {
+    if (title === "Nome do Projeto") {
+      return t("projectNameModalInfo");
+    } else if (title === "Tipo do Projeto") {
+      return t("projectCategoryModalInfo");
+    } else if (title === "Tecnologias Ultilizadas") {
+      return t("projectTechnologysModalInfo");
+    } else if (title === "Bibliotecas Ultilizadas") {
+      return t("projectLibrariesModalInfo");
+    }
+  };
+
   return (
     <motion.div
       className="mx-auto h-screen flex flex-col justify-center items-center fixed top-0 backdrop-blur-md text-center lg:w-full py-5"
@@ -34,10 +57,14 @@ export function ProjectsModal({ onClick, idProject }: ProjectsModalProps) {
             className="w-[300px] flex-2 mx-auto rounded lg:mx-0"
           />
           <div className="mt-5 flex flex-col justify-centers gap-5 flex-3 py-5 pe-10 font-semibold">
-            {infoProjects(idProject).map((item) => (
+            {infoProjects(
+              idProject,
+              t(`projectTitle${idProject + 1}`),
+              t(`projectCategory${idProject + 1}`)
+            ).map((item) => (
               <h2>
-                {item.title}
-                <span className="font-normal">{item.name}</span>
+                {titleModalInfo(item.title)}:
+                <span className="font-normal"> {item.name}</span>
               </h2>
             ))}
           </div>
@@ -57,8 +84,8 @@ export function ProjectsModal({ onClick, idProject }: ProjectsModalProps) {
           </div>
         </div>
         <div className="mt-10 grid text-start gap-3 overflow-auto lg:mt-0 lg:flex-2">
-          <h2 className="font-bold">Descrição de Projeto:</h2>
-          {projects[idProject].description.map((item, index) => (
+          <h2 className="font-bold">{t("projectDetailsModalInfo")}</h2>
+          {descriptionProjects.map((item, index) => (
             <p key={index}>{item}</p>
           ))}
         </div>
