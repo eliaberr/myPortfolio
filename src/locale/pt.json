@@ -65,14 +65,14 @@
     "project_4_description_paragraph_4": "Essa integração eliminou a necessidade de atualizações manuais de preços, reduzindo retrabalho e evitando inconsistências entre o site e a plataforma de gerenciamento.",
     "project_4_description_paragraph_5": "O resultado foi uma landing page eficiente, funcional e alinhada às necessidades do negócio, atuando como uma ferramenta estratégica para conversão e apresentação profissional da marca.",
 
-    "projectTitle6": "Projeto NLW Agents",
-    "projectResume6": "Aplicação full stack desenvolvida durante o NLW (Rocketseat), utilizando React no front-end, Node.js/Fastify no back-end e PostgreSQL com Drizzle ORM.",
-    "projectCategory6": "projeto Acadêmico",
+    "projectTitle5": "Projeto NLW Agents",
+    "projectResume5": "Aplicação full stack desenvolvida durante o NLW (Rocketseat), utilizando React no front-end, Node.js/Fastify no back-end e PostgreSQL com Drizzle ORM.",
+    "projectCategory5": "projeto Acadêmico",
 
-    "project_6_description_paragraph_1": "O projeto NLW Agents foi desenvolvido durante a imersão NLW da Rocketseat, com foco na aplicação de boas práticas de desenvolvimento full stack e uso de tecnologias modernas.",
-    "project_6_description_paragraph_2": "No front-end, a aplicação foi construída em React, explorando conceitos de componentização, gerenciamento de estado e consumo de APIs, garantindo uma interface fluida e organizada.",
-    "project_6_description_paragraph_3": "O back-end foi desenvolvido com Node.js e Fastify, utilizando Drizzle ORM para integração com o banco de dados PostgreSQL, além de validações com Zod e organização em camadas.",
-    "project_6_description_paragraph_4": "Durante o desenvolvimento, foram explorados conceitos como upload de arquivos, validação de dados, estruturação de APIs e integração entre front-end e back-end.",
-    "project_6_description_paragraph_5": "Esse projeto foi essencial para consolidar conhecimentos em arquitetura full stack, reforçando a integração entre diferentes tecnologias do ecossistema JavaScript."
+    "project_5_description_paragraph_1": "O projeto NLW Agents foi desenvolvido durante a imersão NLW da Rocketseat, com foco na aplicação de boas práticas de desenvolvimento full stack e uso de tecnologias modernas.",
+    "project_5_description_paragraph_2": "No front-end, a aplicação foi construída em React, explorando conceitos de componentização, gerenciamento de estado e consumo de APIs, garantindo uma interface fluida e organizada.",
+    "project_5_description_paragraph_3": "O back-end foi desenvolvido com Node.js e Fastify, utilizando Drizzle ORM para integração com o banco de dados PostgreSQL, além de validações com Zod e organização em camadas.",
+    "project_5_description_paragraph_4": "Durante o desenvolvimento, foram explorados conceitos como upload de arquivos, validação de dados, estruturação de APIs e integração entre front-end e back-end.",
+    "project_5_description_paragraph_5": "Esse projeto foi essencial para consolidar conhecimentos em arquitetura full stack, reforçando a integração entre diferentes tecnologias do ecossistema JavaScript."
   }
 }
