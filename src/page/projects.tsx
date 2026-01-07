@@ -18,7 +18,7 @@ export function Projects() {
           className="text-center"
           initial={{ opacity: 0, y: 24 }}
           whileInView={{ opacity: 1, y: 0 }}
-          transition={{ duration: 1.5, ease: "easeOut" }}
+          transition={{ duration: 1.5, ease: "easeIn"}}
         >
           <h2 className="font-bold text-[34px]">Meus Projetos</h2>
           <p className="text-gray-500 text-sm mx-auto lg:max-w-2xl">
